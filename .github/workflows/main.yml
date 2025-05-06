@@ -1,6 +1,8 @@
 name: Deploy to AWS
 
 on:
+  workflow_dispatch:  # Allows manual triggering
+  
   push:
     branches:
       - main  # Adjust branch as needed
